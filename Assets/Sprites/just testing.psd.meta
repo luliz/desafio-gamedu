@@ -1,26 +1,21 @@
 fileFormatVersion: 2
-guid: 7152a0f82be2713429f612ea2738a9a2
-timeCreated: 1449073978
+guid: bee439554cd5da346854848996dddfdc
+timeCreated: 1449074113
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: FEZ_0
-    21300002: FEZ_1
-    21300004: FEZ_2
-    21300006: FEZ_3
-    21300008: FEZ_4
-    21300010: FEZ_5
-    21300012: FEZ_6
-    21300014: FEZ_7
-    21300016: FEZ_8
-    21300018: FEZ_9
-    21300020: FEZ_10
-    21300022: FEZ_11
-    21300024: FEZ_12
-    21300026: FEZ_13
-    21300028: FEZ_14
-    21300030: FEZ_15
-    21300032: FEZ_16
+    21300000: just testing_0
+    21300002: just testing_1
+    21300004: just testing_2
+    21300006: just testing_3
+    21300008: just testing_4
+    21300010: just testing_5
+    21300012: just testing_6
+    21300014: just testing_7
+    21300016: just testing_8
+    21300018: just testing_9
+    21300020: just testing_10
+    21300022: just testing_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -67,175 +62,125 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: FEZ_0
+    - name: just testing_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 194
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_1
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 194
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_2
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 194
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_3
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 194
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_4
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 194
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 194
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_6
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 188
+        x: 7
+        y: 158
         width: 4
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_7
+    - name: just testing_1
       rect:
         serializedVersion: 2
-        x: 86
-        y: 188
+        x: 12
+        y: 158
         width: 4
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_8
+    - name: just testing_2
       rect:
         serializedVersion: 2
-        x: 91
-        y: 188
+        x: 20
+        y: 158
         width: 12
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_9
+    - name: just testing_3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 198
+        x: 37
+        y: 168
         width: 4
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_10
+    - name: just testing_4
       rect:
         serializedVersion: 2
-        x: 116
-        y: 198
+        x: 42
+        y: 168
         width: 4
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_11
+    - name: just testing_5
       rect:
         serializedVersion: 2
-        x: 124
-        y: 198
+        x: 50
+        y: 168
         width: 12
         height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_12
+    - name: just testing_6
       rect:
         serializedVersion: 2
-        x: 139
-        y: 176
+        x: 65
+        y: 146
         width: 8
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_13
+    - name: just testing_7
       rect:
         serializedVersion: 2
-        x: 4
-        y: 175
-        width: 13
-        height: 13
+        x: 0
+        y: 107
+        width: 75
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_14
+    - name: just testing_8
       rect:
         serializedVersion: 2
-        x: 51
-        y: 174
-        width: 10
-        height: 19
+        x: 126
+        y: 63
+        width: 44
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_15
+    - name: just testing_9
       rect:
         serializedVersion: 2
-        x: 66
-        y: 176
-        width: 7
-        height: 16
+        x: 0
+        y: 77
+        width: 99
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: FEZ_16
+    - name: just testing_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 43
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: just testing_11
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 244
-        height: 172
+        height: 18
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
