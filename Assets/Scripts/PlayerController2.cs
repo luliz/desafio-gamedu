@@ -9,9 +9,20 @@ public class PlayerController2 : MonoBehaviour {
     public Rigidbody2D myRigidBody2D;
     public Animator animator;
 
+    public float forcaPulo;
+
+    public bool grounded;
+
     void Update()
     {
+        if (Input.GetKeyDown(Controller.jump2) && (grounded))
+        {
 
+            myRigidBody2D.AddForce(new Vector2(0, forcaPulo), ForceMode2D.Impulse);
+            myRigidBody2D.gravityScale = 3;
+
+        }
+        
         if (Input.GetKey(Controller.walkLeft2))
         { //Se o A(Ele chama o script Controls que é estatico) for apertado ele vai ativar a animação de correr.
             animator.SetBool("walking", true);
