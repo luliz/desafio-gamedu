@@ -13,6 +13,8 @@ public class PlayerController2 : MonoBehaviour {
 
     public bool grounded;
 
+    public Animator animationPlayer2;
+
     void Update()
     {
         if (Input.GetKeyDown(Controller.jump2) && (grounded))
@@ -20,7 +22,13 @@ public class PlayerController2 : MonoBehaviour {
 
             myRigidBody2D.AddForce(new Vector2(0, forcaPulo), ForceMode2D.Impulse);
             myRigidBody2D.gravityScale = 3;
+            animationPlayer2.SetBool("jump",true);
 
+
+        }
+        else
+        {
+            animationPlayer2.SetBool("jump", false);
         }
         
         if (Input.GetKey(Controller.walkLeft2))

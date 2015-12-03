@@ -12,16 +12,20 @@ public class PlayerController : MonoBehaviour
 
     public bool grounded;
 
-    
+    public Animator animationPlayer;
 
     void Update()
     {
         if (Input.GetKeyDown(Controller.jump) && (grounded))
         {
-
+            animationPlayer.SetBool("jump", true);
             myRigidBody2D.AddForce(new Vector2(0, forcaPulo), ForceMode2D.Impulse);
-            myRigidBody2D.gravityScale = 3;
-           
+            myRigidBody2D.gravityScale = 3;           
+        }
+
+        else
+        {
+            animationPlayer.SetBool("jump", false);
         }
         
         if (Input.GetKey(Controller.walkLeft))

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class CheckGround : MonoBehaviour {
 
+
+    
     PlayerController playerController;      
 
     void Awake()
@@ -16,7 +18,9 @@ public class CheckGround : MonoBehaviour {
     {
         if (col.gameObject.tag == "Jumpable")
         {
-            playerController.grounded = true;          
+            playerController.grounded = true;
+
+            
            
         }
     }
@@ -25,6 +29,8 @@ public class CheckGround : MonoBehaviour {
         if (col.gameObject.tag == "Jumpable" )
         {
             playerController.grounded = false;
+
+            
            
         }
     }
