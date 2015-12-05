@@ -10,9 +10,12 @@ public class OrbRoxa : MonoBehaviour {
 
 		if (col.gameObject.tag == "Player2" || col.gameObject.tag == "Player") {
 
-			this.transform.parent =  col.gameObject.transform;
+			Transform holder = col.gameObject.transform.FindChild("holder");
+			transform.parent =  holder;
 			segurando = true;
+			transform.position = new Vector3(holder.position.x,holder.position.y,holder.position.z);
 			quemTaSegurando = col.tag;
+
 			
 		}
 	}
