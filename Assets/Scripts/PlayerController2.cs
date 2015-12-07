@@ -15,8 +15,14 @@ public class PlayerController2 : MonoBehaviour {
 
     public Animator animationPlayer2;
 
+	public BoxCollider2D boxCollider;
+	void Start () {
+
+		Physics2D.IgnoreCollision (GetComponent<BoxCollider2D> (), boxCollider);
+	}
     void Update()
     {
+		Physics2D.IgnoreCollision (GetComponent<BoxCollider2D> (), boxCollider);
         if (Input.GetKeyDown(Controller.jump2) && (grounded))
         {
 
@@ -35,11 +41,11 @@ public class PlayerController2 : MonoBehaviour {
         { //Se o A(Ele chama o script Controls que é estatico) for apertado ele vai ativar a animação de correr.
             animator.SetBool("walking", true);
             transform.Translate(new Vector3(-velocidade * Time.deltaTime, 0, 0));
-
             if (right)
             {
                 Flip();
             }
+
         }
 
         else if (Input.GetKey(Controller.walkRight2))
@@ -69,4 +75,6 @@ public class PlayerController2 : MonoBehaviour {
         theScale.x *= -1;
         transform.localScale = theScale;
     }
+
+
 }
