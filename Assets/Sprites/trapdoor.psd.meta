@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: e0bb01035a0caaa4d884e57388727ca7
-timeCreated: 1449520868
+guid: 0a2784e35da4b204a9039e732623b002
+timeCreated: 1449522926
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: porta vermelha_0
-    21300002: porta vermelha_1
-    21300004: porta vermelha_2
-    21300006: porta vermelha_3
-    21300008: porta vermelha_4
-    21300010: porta vermelha_5
+    21300000: trapdoor_0
+    21300002: trapdoor_1
+    21300004: trapdoor_2
+    21300006: trapdoor_3
+    21300008: trapdoor_4
+    21300010: trapdoor_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,63 +56,63 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: porta vermelha_0
+    - name: trapdoor_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 5
-        height: 21
+        y: 1
+        width: 8
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: porta vermelha_1
+    - name: trapdoor_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 5
-        height: 21
+        x: 10
+        y: 1
+        width: 8
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: porta vermelha_2
+    - name: trapdoor_2
       rect:
         serializedVersion: 2
-        x: 29
-        y: 0
-        width: 5
-        height: 21
+        x: 20
+        y: 1
+        width: 8
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: porta vermelha_3
+    - name: trapdoor_3
       rect:
         serializedVersion: 2
-        x: 43
-        y: 0
-        width: 5
-        height: 21
+        x: 30
+        y: 1
+        width: 8
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: porta vermelha_4
+    - name: trapdoor_4
       rect:
         serializedVersion: 2
-        x: 57
-        y: 0
-        width: 5
-        height: 21
+        x: 40
+        y: 1
+        width: 8
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: porta vermelha_5
+    - name: trapdoor_5
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 5
-        height: 21
+        x: 50
+        y: 1
+        width: 8
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
