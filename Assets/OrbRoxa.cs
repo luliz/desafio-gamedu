@@ -8,7 +8,7 @@ public class OrbRoxa : MonoBehaviour {
 
 	void OnTriggerEnter2D (Collider2D col) {
 
-		if (col.gameObject.tag == "Player2" || col.gameObject.tag == "Player") {
+		if ((col.gameObject.tag == "Player2" || col.gameObject.tag == "Player") && !segurando) {
 
 			Transform holder = col.gameObject.transform.FindChild("holder");
 			transform.parent =  holder;
@@ -27,11 +27,13 @@ public class OrbRoxa : MonoBehaviour {
 			if (quemTaSegurando == "Player" && Input.GetKeyDown (Controller.dropBob)) {
 
 				this.transform.parent = null;
+				segurando = false;
 			}
 
 			if (quemTaSegurando == "Player2" && Input.GetKeyDown (Controller.dropJoe)) {
 				
 				this.transform.parent = null;
+				segurando = false;
 			}
 		}
 	}
