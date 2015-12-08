@@ -6,9 +6,9 @@ public class box : MonoBehaviour {
 	bool segurando = false;
 	public Rigidbody2D myRB;
 	
-	void OnTriggerEnter2D (Collider2D col) {
+	void OnTriggerStay2D (Collider2D col) {
 		
-		if (col.gameObject.tag == "Player") {
+		if (col.gameObject.tag == "Player" && Input.GetKeyDown(KeyCode.E)) {
 
 			Transform holder = col.gameObject.transform.FindChild("holder");
 			transform.parent =  holder;
